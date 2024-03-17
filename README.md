@@ -1,12 +1,14 @@
-# js-lab-143
-### Lab143 Array: สร้าง object โดยมี key เป็น id
-จงสร้าง object โดยมี key เป็น id ของ product และ value เป็น product name
+# js-lab-144
+### Lab144 Array: Group คนที่มีเพศเดียวกัน
+จง Group คนที่มีเพศเดียวกันเข้าด้วยกัน
 
 ```JavaScript
-const products = [
-  { id: 1, name: 'Crystal' },
-  { id: 4, name: 'Namthip' },
-  { id: 5, name: 'Nestle' }
+const persons = [
+  { name: 'John', sex: 'M' },
+  { name: 'Jody', sex: 'M' },
+  { name: 'Susan', sex: 'F' },
+  { name: 'Kate', sex: 'F' },
+  { name: 'Sid', sex: 'M' }
 ];
-// { 1: { name: 'Crystal' }, 4: { name: 'Namthip' }, 5: { name: 'Nestle' } };
+// expexted result: { M: ['John', 'Jody', 'Sid'], F: ['Susan', 'Kate'] }
 ```
